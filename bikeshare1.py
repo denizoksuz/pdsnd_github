@@ -2,6 +2,7 @@ import timeit
 import time
 import pandas as pd
 import numpy as np
+# adding line for github modification example 1
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -50,13 +51,13 @@ def filter_city():
     # get the city's name in string format from the list
     city_name = cities_list[city_numb - 1]
     return city_name
-
+# adding line for github modification example 2
 def filter_month():
     """
     Asks user to specify month to filter, or all months.
 
     Returns:
-        (str)  month - name of the month to filter by, or "all" to apply no month filter
+        (str)  month - name of the month to filter by, or "all" to apply no month filter.
     """
     month_list = list()
     number_month = 0
