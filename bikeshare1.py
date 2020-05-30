@@ -17,7 +17,7 @@ def operation_time(start_time):
     opt_time = "[... %s seconds]" % round((stop - start_time),4)
     print(opt_time.rjust(100,"-"))
     print(seperator)
-
+##Second change for refactoring
 def filter_city():
     """
     Asks user to specify city.
