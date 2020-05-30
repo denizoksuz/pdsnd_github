@@ -11,14 +11,14 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 seperator = lambda i :print(i*70)
-
+##first change for refactoring
 def operation_time(start_time):
     #calculate the time
     stop =  timeit.default_timer()
     opt_time = "[... %s seconds]" % round((stop - start_time),4)
     print(opt_time.rjust(100,"-"))
     print(seperator)
-
+##Second change for refactoring
 def filter_city():
     """
     Asks user to specify city.
@@ -51,7 +51,7 @@ def filter_city():
     # get the city's name in string format from the list
     city_name = cities_list[city_numb - 1]
     return city_name
-# adding line for github modification example 2
+##fixed the problem change for refactoring
 def filter_month():
     """
     Asks user to specify month to filter, or all months.
@@ -86,7 +86,7 @@ def filter_month():
             print("\nPlease input valid option:  1 - 6 or all")
             continue
     return month
-
+##fourt change for refactoring
 def filter_day():
     """
     Asks user to specify a day to filter, or all days.
