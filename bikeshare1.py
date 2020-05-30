@@ -122,6 +122,7 @@ def filter_day():
             continue
     return day
 #fixed v1.2
+#fixed v1.3
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
