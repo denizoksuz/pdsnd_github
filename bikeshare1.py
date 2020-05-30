@@ -10,7 +10,7 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 seperator = lambda i :print(i*70)
-
+##first change for refactoring
 def operation_time(start_time):
     #calculate the time
     stop =  timeit.default_timer()
