@@ -120,7 +120,7 @@ def filter_day():
             print("\nPlease input valid option:  1 - 7 or all")
             continue
     return day
-
+#fixed v1.2
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
