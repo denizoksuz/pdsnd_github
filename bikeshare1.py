@@ -51,7 +51,12 @@ def filter_city():
     # get the city's name in string format from the list
     city_name = cities_list[city_numb - 1]
     return city_name
+<<<<<<< HEAD
 ##fixed the problem change for refactoring
+=======
+# adding line for github modification example 2
+#explanation: adding line for modification
+>>>>>>> documentation
 def filter_month():
     """
     Asks user to specify month to filter, or all months.

@@ -16,9 +16,6 @@ washington.csv
 readme.txt
 bikeshare1.py
 README.md
-chicago.gitignore
-new_york_city.gitignore
-washington.gitignore
 
 ### Credits
 https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
