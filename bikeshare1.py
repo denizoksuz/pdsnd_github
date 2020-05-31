@@ -18,6 +18,7 @@ def operation_time(start_time):
     print(opt_time.rjust(100,"-"))
     print(seperator)
 ##Second change for refactoring
+##Explanation add for changing for refactoring
 def filter_city():
     """
     Asks user to specify city.
