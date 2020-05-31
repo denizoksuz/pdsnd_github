@@ -15,3 +15,4 @@ http://www.veridefteri.com/2018/02/23/python-programlamaya-giris-16-dize-bicimle
 https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/	
 https://stackoverflow.com/questions/21323692/convert-seconds-to-weeks-days-hours-minutes-seconds-in-python/32916925
 https://www.geeksforgeeks.org/divmod-python-application/
+********************
