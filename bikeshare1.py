@@ -52,6 +52,7 @@ def filter_city():
     city_name = cities_list[city_numb - 1]
     return city_name
 # adding line for github modification example 2
+#explanation: adding line for modification
 def filter_month():
     """
     Asks user to specify month to filter, or all months.
